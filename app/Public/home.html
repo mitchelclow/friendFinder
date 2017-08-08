@@ -1,28 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Tables Page</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Friend Finder Quiz</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link href="assets/style.css" rel="stylesheet">
 </head>
+
 <body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="https://github.com/mitchelclow/friendFinder">GitHub Repo</a></li>
+</ul>
+
   <div class="container">
-    <div class="jumbotron">
-      <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Hot Restaurant</h1>
-      <hr>
-      <h2 class="text-center">We only have 5 tables! Book your seat before they all are gone!</h2>
+
+    <div class="jumbotron" style="background:#292828; !important" >
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <h1 class="resHead" style="color: white">Friend Finder 👬</h1>
+          
+        </div>
+
+      </div>
+
+      <hr size= "100">
+      
+      <div class="row">
+
+        <div class="col-md-12">
+
+
+          <h3 class="resText" style="color:white">Use our survey to see who your new best friend is!</h3>
+
+
+        </div>
+      </div>
+
+
       <br>
-      <div class="text-center">
-        <a href="/tables"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
-        <a href="/reserve"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>
+
+      <div class="row">
+
+        <div class="col-md-7">
+
+
+          <section>
+            <button id="js-trigger-overlay" type="button">View Tables</button>
+          </section>
+        </div>
+
+        <div class="col-md-3">  
+          <section>
+            <button id="js-trigger-overlay" type="button">Make Res</button>
+          </section>
+        </div>
       </div>
+
     </div>
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a> | <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a></p>
-      </div>
-    </footer>
+
+
+
   </div>
+
+  <img class="chicago" src="assets/images/trees.jpg">
+
+
 </body>
+
 </html>
