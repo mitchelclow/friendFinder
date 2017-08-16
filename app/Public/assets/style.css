@@ -20,7 +20,6 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  font: 400 1.4rem 'Lato', Verdana, Helvetica, sans-serif;
 }
 
 * {
@@ -97,8 +96,9 @@ li a:hover {
     background-color: #111;
 }
 
-.title {
+.questionsFont {
 
+font-family: 'Montserrat', sans-serif; font-size: 20px;
 }
 
 .questionsBlock {
@@ -111,4 +111,8 @@ li a:hover {
   margin: 0 0 0 228px;
   background: #b4b4b4;
   border: 4px solid #000000;
+}
+
+.questionsText {
+  padding-left: 50px;
 }
