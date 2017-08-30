@@ -72,6 +72,15 @@ section button:hover {
   -webkit-mask-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 
+.chicagoSecond {
+  opacity: 0.5;
+  position: fixed;
+  bottom: 0;
+  height: 70%;
+  width: 100%;
+  padding-left: 169px;  
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -115,4 +124,37 @@ font-family: 'Montserrat', sans-serif; font-size: 20px;
 
 .questionsText {
   padding-left: 50px;
+}
+
+.nameEntry {
+  padding-left: 1px;
+}
+
+.photoEntry {
+  padding-left: 1px;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  max-height: 100%;
+  margin: 10px 0 0 0;
+  background-color: #888888;
+  border: 4px solid #000000;
+  position: absolute;
+}
+
+.footerContainer {
+  width: 100%;
+}
+
+.footerText {
+
+  color: white;
+  text-align: center;
+}
+
+.questionRow {
+  margin-right: 0 !important;
 }
